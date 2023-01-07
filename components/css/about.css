@@ -1,0 +1,91 @@
+.content-section {
+  margin-bottom: 48px;
+}
+
+.tittle {
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px 15px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+.isi-content {
+  flex: 1 1 1;
+  width: 40%;
+  text-align: justify;
+}
+
+.isi-content h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.isi-content p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.img {
+  width: 50%;
+  height: auto;
+  flex: 1 3 1;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.tbl {
+  background: black;
+  border-radius: 20px;
+  margin-top: 25px;
+  padding: 20px 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  /* width: 100px; */
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tbl:hover {
+  background: yellowgreen;
+  text-decoration: none;
+}
+
+.card-profile {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+.card-profile-item {
+  background-color: #ff9933;
+  padding: 10px 20px;
+  border-radius: 9px;
+  display: flex;
+}
+
+.konten {
+  padding-left: 10px;
+}
+
+.tittle2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-top: 40px;
+}
