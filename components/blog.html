@@ -338,6 +338,18 @@
         </nav>
       </div>
     </footer>
+    <!-- Sticky Nav JS  -->
+    <script>
+      const header = document.getElementById("header");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 30) {
+          header.style.height = "100px";
+        } else {
+          header.style.height = "130px";
+        }
+      });
+    </script>
     <!-- <footer class="footer">
       <div class="footer-container">
         <div class="contact-container">

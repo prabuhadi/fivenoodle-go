@@ -11,8 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/components/css/style.css" />
     <link rel="stylesheet" href="/components/css/about.css" />
-    <link rel="stylesheet" href="/components/css/menu.css" />
   </head>
   <body>
     <header class="header" id="header">
@@ -191,5 +191,17 @@
         </nav>
       </div>
     </footer>
+    <!-- Sticky Nav JS  -->
+    <script>
+      const header = document.getElementById("header");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 30) {
+          header.style.height = "100px";
+        } else {
+          header.style.height = "130px";
+        }
+      });
+    </script>
   </body>
 </html>

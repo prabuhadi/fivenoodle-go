@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- <link rel="stylesheet" href="/components/css/style.css" /> -->
     <link rel="stylesheet" href="/components/css/menu.css" />
   </head>
 
@@ -20,7 +21,7 @@
       <nav class="main-nav-left">
         <ul class="main-nav-list">
           <li>
-            <a class="main-nav-link" href="/components/our-menu.html"
+            <a class="main-nav-link main-color" href="/components/our-menu.html"
               >Our Menu</a
             >
           </li>
@@ -349,4 +350,16 @@
     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
   ></script>
   <script src="/components/js/menu.js"></script>
+  <!-- Sticky Nav JS  -->
+  <script>
+    const header = document.getElementById("header");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 30) {
+        header.style.height = "100px";
+      } else {
+        header.style.height = "130px";
+      }
+    });
+  </script>
 </html>

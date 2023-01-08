@@ -1,0 +1,58 @@
+@media (max-width: 1300px) {
+  .hero {
+    max-width: 1200px;
+  }
+
+  .heading-primary {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 80px;
+    gap: 64px;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 32px;
+  }
+
+  .container {
+    padding: 0 72px;
+  }
+
+  /* Resize logos and other section */
+}
+
+@media (max-width: 880px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 14px;
+  }
+
+  .logo {
+    height: 80%;
+  }
+
+  a {
+    padding-bottom: 0;
+  }
+}
