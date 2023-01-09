@@ -6,9 +6,13 @@
   .heading-primary {
     font-size: 44px;
   }
+
+  .gallery {
+    height: 100%;
+  }
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1110px) {
   .hero {
     grid-template-columns: 1fr;
     padding: 0 80px;
@@ -33,6 +37,34 @@
     padding: 0 72px;
   }
 
+  .banner {
+    margin-top: 72px;
+  }
+
+  .logos img {
+    height: 75px;
+  }
+
+  .logo--last img:first-child,
+  .logos--last img:nth-child(2) {
+    height: 56px;
+  }
+
+  .logos--last img:last-child {
+    height: 35px;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .step-img {
+    width: 47%;
+  }
+
+  .meal-content {
+    padding: 32px 24px 24px 24px;
+  }
   /* Resize logos and other section */
 }
 
@@ -54,5 +86,18 @@
 
   a {
     padding-bottom: 0;
+  }
+
+  .banner-text {
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
   }
 }
